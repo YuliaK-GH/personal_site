@@ -3,11 +3,38 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 300px;
+  class="image"
 }
 
 img:hover {
   box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
 }
+
+.image-text-container {
+    display: flex;
+    align-items: center; /* Vertically align the text with the image */
+    margin: 5px;
+}
+
+.image-text-container img {
+    max-width: 40%; /* Adjust this value as needed */
+    height: auto;
+    margin-right: 20px; /* Space between the image and text */
+}
+
+.image-text-container .text {
+    max-width: 60%; /* Adjust this value as needed */
+}
+
+.image-text-container h2 {
+    margin-top: 0;
+}
+
+.image-text-container p {
+    margin: 0;
+}
+
+
 
 h1 {
      text-align: center;
@@ -41,15 +68,15 @@ body {
 
 section {
             padding: 50px;
-            color: white;
+            color: black;
 }
 
 #section1 {
-            background-color: #5291ac;
+            background-color: #a0bcbb;
 }
         
 #section2 {
-            background-color: #a0bcbb;
+            background-color: #5291ac;
 }
 
 #section3 {
