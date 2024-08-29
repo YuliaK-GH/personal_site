@@ -38,3 +38,20 @@ body {
 	border: 10px solid red;
 	background-color: yellow;
 }
+
+section {
+            padding: 50px;
+            color: white;
+}
+
+#section1 {
+            background-color: #4CAF50;
+}
+        
+#section2 {
+            background-color: #2196F3;
+}
+
+#section3 {
+            background-color: #f44336;
+}
