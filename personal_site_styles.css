@@ -12,7 +12,7 @@ img:hover {
 
 .image-text-container {
     display: flex;
-    align-items: center; /* Vertically align the text with the image */
+    align-items: flex-start; /* Vertically align the text with the image */
     margin: 5px;
 }
 
@@ -39,7 +39,7 @@ img:hover {
 h1 {
      text-align: center;
      font-family: Montserrat;
-     font-size: 60px;
+     font-size: 50px;
      font-weight: 500;
      text-transform: uppercase;
      line-height: 1;
@@ -57,17 +57,17 @@ body {
 }
 
 .bigFont{
-	font-size: 52px
+	font-size: 32px
 }
 
 #specialStyle{
 	width: 30%;
-	border: 10px solid red;
-	background-color: yellow;
+	border: 5px #5291ac;
+	background-color: #c6d8d3;
 }
 
 section {
-            padding: 50px;
+            padding: 14px 20px;
             color: black;
 }
 
@@ -82,3 +82,39 @@ section {
 #section3 {
             background-color: #89b7c2;
 }
+
+
+<style>
+        /* Basic styling for the menu */
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left; /* Align items horizontally */
+        }
+        nav ul li a {
+            display: block;
+            color: #484974;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none; /* Remove underline */
+        }
+        nav ul li a:hover {
+            background-color: #5291ac; /* Change color on hover */
+        }
+    </style>
+	
+.text-container {
+    width: 100px; /* Set a fixed width for the container */
+    border: 1px solid #000; /* Optional: Adds a border for visibility */
+    padding: 10px; /* Optional: Adds padding inside the container */
+    word-wrap: break-word; /* Ensures long words break to fit within the container */
+    overflow-wrap: break-word; /* An alternative for newer browsers */
+}
+
