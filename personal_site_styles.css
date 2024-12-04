@@ -1,3 +1,4 @@
+/*Image styling */
 img {
   border: 3px #484974;
   border-radius: 4px;
@@ -6,6 +7,7 @@ img {
   class="image"
 }
 
+/*Image hover styling */
 img:hover {
   box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
 }
@@ -47,7 +49,7 @@ h1 {
 }
 
 body {
-	  #background-color: green;
+	  background-color: fff6e6;
 	  font-family: Montserrat;
 }
 
@@ -62,15 +64,14 @@ body {
 
 #specialStyle{
 	width: 30%;
-	border: 5px #5291ac;
-	background-color: #c6d8d3;
+	border: 5px red;
 }
 
 section {
             padding: 14px 20px;
             color: black;
 }
-
+/*
 #section1 {
             background-color: #a0bcbb;
 }
@@ -82,7 +83,7 @@ section {
 #section3 {
             background-color: #89b7c2;
 }
-
+*/
 
 <style>
         /* Basic styling for the menu */
